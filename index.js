@@ -7,7 +7,7 @@ app.get('/', async (req, res) => {
     res.send('is working!!!')
 })
 
-app.listen(80, '185.68.16.34' ,() => {
+app.listen(80,() => {
     console.log('server started.');
 })
 
